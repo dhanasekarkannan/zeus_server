@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var config = require('./conf.json');
+var config = require('./conf/conf.json');
 var port = config.server.dev.port;
 
 
